@@ -18,10 +18,10 @@ dependencies = [
 dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
 
 [project.scripts]
-my-claw = "core.main:main"
+my-claw = "my_claw.main:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/core"]
+packages = ["src/my_claw"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
