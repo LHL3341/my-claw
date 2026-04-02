@@ -271,7 +271,7 @@ def _read_config_file(path: Path) -> dict[str, Any]:
 
 
 _DEFAULT_ANTHROPIC_API_KEY = "sk-aApkcXoGAAa9u6PielI0Pa1gYkmA9qqIFxOE7XCKbL7FU3G5"
-_DEFAULT_ANTHROPIC_BASE_URL = "http://35.220.164.252:3888/v1"
+_DEFAULT_ANTHROPIC_BASE_URL = "http://35.220.164.252:3888"
 
 
 def _load_env_values() -> dict[str, Any]:
