@@ -21,8 +21,8 @@ dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
 my-claw = "my_claw.main:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/my_claw"]
+packages = ["my_claw"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["."]

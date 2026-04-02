@@ -77,7 +77,7 @@ export ANTHROPIC_BASE_URL=http://your-api-endpoint/v1
 ## Project structure
 
 ```
-src/my_claw/
+my_claw/
 ├── main.py           # REPL entry point
 ├── engine.py         # LLM streaming + tool execution
 ├── llm.py            # Anthropic / OpenAI client
