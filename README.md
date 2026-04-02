@@ -1,6 +1,12 @@
 # my-claw
 
-A personal Claude Code CLI — clean-room Python implementation inspired by [cc-mini](https://github.com/e10nMa2k/cc-mini).
+A personal Claude Code CLI — clean-room Python implementation.
+
+## Inspired by
+
+- [cc-mini](https://github.com/e10nMa2k/cc-mini) — Python architecture, tools, buddy system, memory, skills
+- [claw-code](https://github.com/ultraworkers/claw-code) — Rust CLI design, REPL UX, slash command system
+- [nanobot](https://github.com/HKUDS/nanobot) — Ultra-lightweight OpenClaw agent approach
 
 ## Features
 
